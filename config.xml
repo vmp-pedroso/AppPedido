@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mgiven.pedidos.app" version="2.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MGiven Pedidos APP</name>
+    <description>App para realizar pedidos intranet</description>
+    <author email="contato@mgiven.com.br" href="http://www.mgiven.com.br">
+        M.Given Informática Ltda
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <icon src="www/img/logo.png" />
+</widget>

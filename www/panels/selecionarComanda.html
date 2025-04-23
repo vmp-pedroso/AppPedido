@@ -1,0 +1,30 @@
+<div class="center-on-screen">
+    
+    <h1> Selecionar Comanda </h1>
+
+    <div class="campo-formulario">
+        <label for="txtComanda">Comanda:</label><br />
+        <input type="number" name="txtComanda" id="txtComanda" class="campos campo-numerico" /> 
+    </div>
+
+    <div class="campo-formulario" id="fieldMesa">
+        <label for="txtMesa">Mesa:</label><br />
+        <input type="number" name="txtMesa" id="txtMesa" class="campos campo-numerico"/>
+    </div>
+
+    <div class="campo-formulario">
+        <a href="javascript:voltarParaSelecaoUsuario()">
+            <img src="img/back-icon-24.png" width="24" height="24" />
+        </a>
+        <label for="txtNomeUsuario">Usuario:</label><br />
+        <input disabled="disabled" type="text" id="txtNomeUsuario" class="campos" /> 
+    </div>
+
+    <div class="campo-formulario">
+        <label for="txtCodTerminal">Terminal:</label><br />
+        <input disabled="disabled" type="text" id="txtCodTerminal" class="campos" /> 
+    </div>
+
+    <a href="javascript:iniciarPedido()" id="btnIniciarPedido" class="botao-pq">Iniciar Pedido</a>
+
+</div>

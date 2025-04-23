@@ -1,0 +1,76 @@
+div.itensPedidoFooter 
+{
+    border-top: 1px solid #1d6079;
+    height: 30px;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+#listaItensPedido {
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: left;
+}
+
+
+/* Detalhes do Pedido */
+div.itemPedidoDetalhes {
+    width: 100%; 
+    min-height: 28px;
+    margin: 3px; 
+    clear: both;
+    position: relative;
+    display: table;
+    font-weight: bold;
+}
+
+/* Zebra */
+div.itemPedidoDetalhes:nth-child(even){background: #DDEEFF;}
+
+/* Item Selecionado */
+div.itemPedidoDetalhesSelecionado, div.itemPedidoDetalhesSelecionado:nth-child(even) {background: #606CFF; color: yellow;}
+
+
+div.itemPedidoDetalhes div  
+{
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-block;
+}
+
+div.itemPedidoDetalhes div.itemPedido_DesProduto { padding-left: 5px; display: inline;}
+div.itemPedidoDetalhes div.itemPedido_Quantidade { padding-left: 5px; width: 10px }
+div.itemPedidoDetalhes div.itemPedido_Preco { width: 60px; text-align: right; margin-right: 2px;}
+
+div.itemPedidoDetalhes div.itemPedido_Caracteristicas  
+{
+    line-height: 13px;
+    font-size: 10px; 
+    float: left;
+    margin-left: 25px;
+    font-weight: normal;
+    min-width: 80%;
+}
+
+/* Ajustes para itens Pre-existentes */
+div.itemPedidoDetalhesPreExistente { min-height: 15px; color: gray; font-weight: normal;}
+div.itemPedidoDetalhesPreExistente div.itemPedido_Caracteristicas {display: none;} 
+
+
+p.detalhesPedidoTotal
+{
+    float: right;
+    font: 15px Nunito,arial,verdana, sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+p.detalhesPedidoTotal span
+{
+    display: inline-block;
+    min-width: 100px; 
+    text-align: right;
+}
+
+

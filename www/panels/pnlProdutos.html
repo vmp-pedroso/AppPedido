@@ -1,0 +1,52 @@
+<div class="toolbar">
+    <span style="float:right;">
+        <a href="javascript:voltarItensPedido();" title="Voltar">
+            <img src="img/back-icon-24.png" width="24" height="24" alt="" />
+            Voltar
+        </a>
+    </span>
+    <span style="float:left;">
+        <a href="javascript:buscaProduto('C');" title="Buscar Produto por Código">
+            <img src="img/cod-icon-24.png" width="24" height="24" alt="" />
+            Código
+        </a>
+        <a href="javascript:buscaProduto('S');" title="Buscar Produto por Descrição">
+            <img src="img/search-icon-24.png" width="24" height="24" alt="" />
+            Busca
+        </a>
+        <a href="javascript:buscaProduto('G');" title="Buscar Produto por Grupos">
+            <img src="img/organize-icon-24.png" width="24" height="24" alt="" />
+            Grupo
+        </a>
+    </span>
+    <br clear="all" /><span class="toolbarFooter"></span>
+</div>
+
+<div id="listaProdutos" class="listaProdutos"></div>
+
+<div style="display: none">
+    <div id="listItemProdutoTemplate">
+        <div>
+            <span class="produto_codUnidade"></span>
+            <span class="produto_valR_precoUnitario"></span><br />
+
+            <a href="javascript:void(0);" title="Remover Item">
+                <img src="img/minus-icon-48.png" title="Remover" alt="-" />
+            </a>
+            
+            <a href="javascript:void(0);" title="Buscar Peso">
+                <img src="img/balanca-icon-48.png" title="Buscar Peso" alt="Bal" />
+            </a>
+            <img id="imgBalancaDisabled" style="display: none;" src="img/balanca-disabled-icon-48.png" title="Sem Balança" alt="Bal" />
+
+            <span class="produto_qtd">0</span>
+
+            <input type="number" class="produto_valorKG" class="campos campo-numerico-decimal" />
+
+            <a href="javascript:void(0);" title="Adicionar Item">
+                <img src="img/plus-icon-48.png" title="Adicionar" alt="+" />
+            </a>
+        </div>
+        <div class="produto_descricao"></div>
+    </div>
+</div>

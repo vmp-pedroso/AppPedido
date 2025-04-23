@@ -1,0 +1,73 @@
+/* Padding tem q fazer parte do tamanho */
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+html { height: 100%;}
+
+/* main styles */
+body {
+    margin:0;
+    padding:0;
+    background: #F8FAFB;
+    font: 9pt Nunito,arial,verdana, sans-serif;
+    height: 100%;
+}
+
+/* main container */
+div.wrapper {
+    width: 100%;
+    margin:0 0;
+    position: relative;
+}
+
+/* div.wrapper header div { float: left; } */
+section#content {
+    position:relative; 
+    z-index:2; 
+    overflow: auto; 
+    width: 100%; 
+    /* height: calc(100% - 50px - 45px);*/
+}
+
+div.appContent { 
+    display: none; 
+    margin: auto; 
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+
+}
+
+nav a:first-child { position: absolute; right: 5px; top: 0px; z-index: 5;}
+
+header { 
+    width:100%;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    position: relative;
+    border-bottom: 1px solid #555555;
+    display: block;
+}
+
+footer
+{
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #fff;
+    color: #FFFFFF;
+    width: 100%;
+    clear:both;
+    background: #212121;
+    height: 45px;
+}
+
+a {text-decoration: none;}
+
+h1 { font-size: 16pt; color: #555555; margin: 10px 0 15px 0;}
+h2 { font-size: 14pt; color: #555555; text-align: center; margin: 0 0 10px 0;}
+h3 { font-size: 13pt; color: #555555; text-shadow: 1px 2px 1px rgba(150, 150, 150, 0.7); text-align: center; margin: 0;}
+h4 { font-size: 11pt; color: #555555; margin: 0;}
+h5 { font-size: 11pt; color: black; margin: 5px 0 5px 0;}

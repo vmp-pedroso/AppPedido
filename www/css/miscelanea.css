@@ -1,0 +1,87 @@
+
+div.toolbar
+{
+    border-bottom: 1px solid #1d6079;
+    height: 68px;
+    padding: 5px 5px 0 5px;
+}
+
+div.toolbar a {
+    display: inline-block;
+    text-align: center;
+    font-size: 8pt;
+    color:#070f49;
+    padding: 4px 3px;
+    margin: 0 1px;
+    width: 50px;
+    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f3f3f3), color-stop(100%, #d2d2d2));
+    background:linear-gradient(#f3f3f3, #d2d2d2);
+    border-radius: 5px;    
+    box-shadow: 1px 1px 1px rgba(255,255,255,.2), 1px 1px 1px rgba(0,0,0,.5); 
+    text-decoration: none; 
+}
+
+span.toolbarFooter
+{
+    height: 10px;
+    font-weight: bold;
+    font-size: 8pt;
+    color:#070f49;
+    display: block;
+    margin-top: 3px;
+}
+
+span.toolbarFooter span
+{
+    margin: 15px;
+}
+
+a.botao-pq
+{
+    font: bold 13px/1.3em Nunito,arial,verdana, sans-serif;
+    color: #FFF;
+    margin: auto 2px;
+    padding: 10px 25px;
+    
+    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8090FF), color-stop(100%, #005e9c));
+    background: linear-gradient(#8090FF, #005e9c);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 3px 3px 1px #777;
+    text-shadow: none;
+}
+
+div.spinner {
+    opacity: 1;
+    z-index: 999;
+    background: black;
+    background: rgba(0,0,0,0.8);
+}
+
+div.spinnerContent {
+    text-align: center;
+    padding: 15px 20px;
+    z-index: 30;
+    background: #f2f2f2;
+    border: 1px solid #1d6079;
+    border-radius: 5px;
+    box-shadow: 3px 3px 9px #689;
+}
+
+img.flip-horizontal {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: fliph; /*IE*/
+}
+
+img.flip-vertical {
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: flipv; /*IE*/
+}

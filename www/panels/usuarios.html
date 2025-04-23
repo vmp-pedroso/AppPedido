@@ -1,0 +1,27 @@
+<div class="center-on-screen">
+    <img src="img/logo-pedidos-gd.png" id="logoAPP" />
+
+    <div class="campo-formulario">
+        <div>
+            <label for="txtCodUsuario">Cod.:</label><br />
+            <input type="number" name="txtCodUsuario" id="txtCodUsuario" class="campos campo-numerico" />
+        </div>
+
+        <div>
+            <label for="ddlUsuarios">Usuário:</label><br />
+            <select id="ddlUsuarios" name="ddlUsuarios" class="campos"> </select>
+        </div>
+
+        <br clear="all" />
+    </div>
+
+    <div class="campo-formulario">
+        <label for="ddlBuscarProdutosPref">Buscar produtos preferencialmente:</label><br />
+        <select id="ddlBuscarProdutosPref" name="ddlBuscarProdutosPref" class="campos">
+            <option value="C">Por código (digitado)</option>
+            <option value="G">Por grupo / subgrupo</option>
+            <option value="S">Por descrição (busca)</option>
+        </select>
+    </div>
+    <a class="botao-pq" href="javascript:selecionaUsuario();">Entrar</a>
+</div> 

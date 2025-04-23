@@ -1,0 +1,50 @@
+
+
+
+form .campos {
+    border: 1px solid #715cae;
+    height: 20px;
+    margin-bottom:5px;
+    /* margin-right:10px;*/
+    background-color: #F8F8FF;
+    color: black;
+    font: normal 10pt Arial,sans-serif; 
+    padding-right: 5px;
+}
+
+form .full { width: 480px }
+
+form .half { width: 213px } 
+
+form .checkbox { margin-right:0px; vertical-align: middle;}
+
+form .campo-numerico { text-align: right;  }
+form .campo-telefone { text-align: right;  }
+form .datePicker { text-align: center; }
+
+form select.campos {margin-top:3px; padding: 0; }
+
+form label.campoLeft  { margin-top: 5px; display: inline-block; min-width: 150px; vertical-align: top; }
+form label.campoMiddle  { margin-top: 5px; margin-left: 15px; margin-right: 5px; display: inline-block;  }
+form label.campoCheckbox { margin-top: 2px; margin-right: 5px; display: inline-block; }
+
+
+form h1{
+    border-bottom:1px solid #ccc;
+    font-size:11px;
+    font-weight:bold;
+    letter-spacing:2px;
+    margin-bottom:20px;
+    text-transform:uppercase;
+}
+
+form label{
+    cursor:pointer;
+    font-size:13px;
+    font-weight:bold;
+    line-height:28px;
+    margin-bottom:5px;
+    text-shadow:0 1px 0 #fff;
+}
+
+

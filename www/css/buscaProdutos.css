@@ -1,0 +1,31 @@
+#tecladoCodigoProduto
+{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+div.botaoTecladoCodigoProduto 
+{
+    font: bold 15px/1.3em Nunito,arial,verdana, sans-serif;
+    margin: auto 4px;
+    padding: 8px 30px;
+    cursor: pointer;
+    line-height: 35px;
+    color: #000;
+
+    text-align: center;
+    vertical-align: middle;
+    
+    text-decoration: none;
+    display: inline-block;
+    
+    border-color: #1d6079;
+    border-radius: 25px;
+    box-shadow: 3px 3px 1px #777;
+    text-shadow: none; 
+}
+
+#buscaProdutoPorDescricaoSearch {border-bottom: 1px solid #1d6079;}

@@ -1,0 +1,49 @@
+<div class="toolbar">
+
+    <span style="float:left;">
+        <a href="javascript:btnAddNewItem_click();" id="btnAddNewItem" title="Adicionar Novo Item">
+            <img src="img/add-icon-24.png" width="24" height="24" alt="" />
+            Adicionar
+        </a>
+
+        <a href="javascript:btnRemoveItem_click();" id="btnRemoveItem" title="Remover Item">
+            <img src="img/remove-icon-24.png" width="24" height="24" alt="" />
+            Remover
+        </a>
+    </span>
+
+    <span style="float:right;">
+        <a href="javascript:btnVerItensPedidoCancelar_click();" id="btnVerItensPedidoCancelar" title="Cancelar">
+            <img src="img/cancel-icon-24.png" width="24" height="24" alt="" />
+            Cancelar
+        </a>
+        <a href="javascript:btnVerItensPedidoFinalizar_click();" id="btnVerItensPedidoFinalizar" title="Finalizar">
+            <img src="img/check-icon-24.png" width="24" height="24" alt="" />
+            Finalizar
+        </a>
+        <a href="javascript:btnVerItensPedidoFinalizarImprimir_click();" id="btnVerItensPedidoFinalizarImprimir" title="Finalizar">
+            <img src="img/print-icon-24.png" width="24" height="24" alt="" />
+            Imprimir
+        </a>
+    </span>
+    
+    <br clear="all" /><span class="toolbarFooter"></span>
+</div>
+
+<div id="listaItensPedido"></div>
+
+<div class="itensPedidoFooter">
+    <span class="toolbarFooter" style="float: left;"></span>
+    <p class="detalhesPedidoTotal">Valor total: <span id="detalhesPedido_valorTotal"></span></p>
+</div>
+
+<div style="display: none;">
+    <div id="itemPedidoDetalhesTemplate">
+        <div style="float: right">
+            <div class="itemPedido_Quantidade">1</div>
+            <div class="itemPedido_Preco"></div>
+        </div>
+        <div class="itemPedido_DesProduto"></div>
+        <div class="itemPedido_Caracteristicas"></div>
+    </div>
+</div>

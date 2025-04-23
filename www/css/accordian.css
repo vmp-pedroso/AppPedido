@@ -1,0 +1,42 @@
+ul.accordian {
+    width: 100%;
+    margin: 0;
+    display: block;
+    vertical-align: top;
+    text-align: left;
+    height: 85%;
+    overflow-y: auto;
+        
+}
+
+ul.accordian h3 {
+    font-size: 12px;
+    line-height: 42px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #FFF;
+    background: #005e9c; 
+    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #207EBC), color-stop(100%, #005E9C));
+    background: linear-gradient(#207EBC, #005E9C);
+}
+
+ul.accordian li {list-style-type: none;	}
+ul.accordian ul { display: block; margin: 0;}
+
+ul.accordian ul li a {
+    width: 80%;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+
+    font-size: 10px;
+    line-height: 42px;
+
+    display: block;
+    padding: 0 35px;
+    /*transition for smooth hover animation*/
+    transition: all 0.15s;
+    background: lightblue;
+    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #BFF), color-stop(100%, #B0C0FF));
+    background: linear-gradient(#BFF, #B0C0FF);
+}

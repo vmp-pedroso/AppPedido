@@ -1,0 +1,105 @@
+<h3> Configuração do APP </h3>
+<div class="center-on-screen">
+    <div class="campo-formulario">
+        <div>
+            <label for="ddlConfigProtocol">Protocolo:</label><br />
+            <select id="ddlConfigProtocol" name="ddlConfigProtocol" class="campos">
+                <option value="http">HTTP://</option>
+                <option value="https">HTTPS://</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="txtConfigServer">Servidor:</label><br />
+            <input type="text" id="txtConfigServer" name="txtConfigServer" class="campos" />
+        </div>
+
+        <br clear="all" />
+    </div>
+
+    <div class="campo-formulario">
+        <div>
+            <label for="txtConfigPort">Porta: </label><br />
+            <input type="number" name="txtConfigPort" id="txtConfigPort" class="campos campo-numerico" />
+        </div>
+
+        <div>
+            <label for="txtConfigService">Nome do Serviço: </label><br />
+            <input type="text" id="txtConfigService" name="txtConfigService" class="campos" />
+        </div>
+
+        <br clear="all" />
+    </div>
+
+
+    <div class="campo-formulario">
+        <div>
+            <label for="txtConfigCodTerminal">Terminal:</label><br />
+            <input type="number" name="txtConfigCodTerminal" id="txtConfigCodTerminal" class="campos campo-numerico" />
+        </div>
+
+        <div>
+            <label for="ddlConfigTipoTerminal">Tipo de Terminal:</label><br />
+            <select id="ddlConfigTipoTerminal" name="ddlConfigTipoTerminal" class="campos">
+                <option value="M">Multi-Usuários</option>
+                <option value="U">Usuário Único</option>
+            </select>
+        </div>
+
+        <br clear="all" />
+    </div>
+
+    <div class="campo-formulario">
+        <div>
+            <label for="ddlConfigMesa">Mesa:</label><br />
+            <select id="ddlConfigMesa" name="ddlConfigMesa" class="campos">
+                <option value="S">Sim</option>
+                <option value="N">Não</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="ddlConfigCallFormat">Formato de chamada:</label><br />
+            <select id="ddlConfigCallFormat" name="ddlConfigCallFormat" class="campos">
+                <option value="A">ASPX</option>
+                <option value="/">API Server</option>
+            </select>
+        </div>
+        <br clear="all" />
+    </div>
+    
+    <div class="campo-formulario">
+        <div>
+            <label for="ddlConfigAgrupar">Agrupar:</label><br />
+            <select id="ddlConfigAgrupar" name="ddlConfigAgrupar" class="campos">
+                <option value="S">Sim</option>
+                <option value="N">Não</option>
+            </select>
+        </div>
+
+        
+        <div>
+            <label for="ddlConfigBalanca">Driver de Balanca</label><br />
+            <select id="ddlConfigBalanca" name="ddlConfigBalanca" class="campos">
+                <option value="-">Nenhuma balança</option>
+                <option value="T">Balança Toledo</option>
+            </select>
+        </div>
+        
+        <br clear="all" />
+    </div>
+
+    <div class="campo-formulario">
+        <label for="txtConfigLogin">Login:</label><br />
+        <input type="text" id="txtConfigLogin" name="txtConfigLogin" class="campos" />
+    </div>
+
+
+    <div class="campo-formulario">
+        <label for="txtConfigPass">Senha:</label><br />
+        <input type="password" id="txtConfigPass" name="txtConfigPass" class="campos" />
+    </div>
+
+
+    <a class="botao-pq" href="javascript:salvarConfiguracao();">Salvar Configurações</a>
+</div> 

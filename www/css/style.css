@@ -1,0 +1,53 @@
+#logoAPP { width: 240px; height: 208px;}
+
+div.center-on-screen 
+{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+    -webkit-transform: translate(-51%, -50%);
+    -moz-transform: translate(-51%, -50%);
+}
+div.center-on-parent 
+{ 
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+    -webkit-transform: translate(-51%, -50%);
+    -moz-transform: translate(-51%, -50%);
+}
+
+div.campo-formulario
+{
+    width: 225px;
+    text-align: left;
+    margin: 5px auto;
+    position: relative;
+}
+
+div.campo-formulario div:first-child {float: left; width: 33%;}
+div.campo-formulario div:nth-child(2) {float: left; width: 62%; margin-left: 10px;}
+
+div.campo-formulario input,div.campo-formulario select {width: 100%;}
+
+div.campo-formulario a
+{
+    position: absolute;
+    right: -35px;
+    top: 22px;
+}
+
+
+div.linha-divisoria { background-color:#1d6079 ;margin-top: 5px; margin-bottom: 5px; height:1px; line-height: 2px; }
+
+div.linha-divisoria-branca { background-color:#F8FAFB;margin-top: 10px; margin-bottom: 10px; height:1px; line-height: 2px; }
+
+
+input, select
+{
+    font: 13px Nunito,arial,verdana, sans-serif;
+    height: 30px;
+    text-align: center;
+}

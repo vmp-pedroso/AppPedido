@@ -1,0 +1,59 @@
+#TituloCaracteristicas { padding-top: 12px; font-size: 12pt;}
+#SubtituloCaracteristicas { margin-top: 10px;}
+
+
+div#listaItensCaracteristicasPane
+{
+    width: 100%;
+    height: calc(80% - 5px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+div#listaItensCaracteristicas
+{
+    margin: 20px 0;
+}
+
+div.itemCaracteristica {
+    background:#fff;
+    border: 0px;
+
+    border-radius: 7px;
+    box-shadow: 3px 3px 9px #666;
+
+    padding:3px;
+
+    width: 110px;
+    height: 30px;
+
+    margin: 5px;
+
+    display: inline-table;
+
+    vertical-align: top;
+    color: black;
+
+    position: relative;
+}
+
+span.itemCaracteristicaTexto
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+span.itemCaracteristicaPreco
+{
+    display: table-footer-group;
+    vertical-align: middle;
+    font-size: 7pt;
+}
+a.itemSelecionado div.itemCaracteristica 
+{
+    background:#1d6079;
+    border: none;
+    color: #FFF;
+    box-shadow: 3px 3px 9px #1d6079;
+}
+
